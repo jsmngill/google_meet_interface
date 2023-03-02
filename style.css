@@ -2,6 +2,11 @@
     padding: 0;
     margin: 0;
 }
+.webpage{
+    background-color: rgb(32,33,36);
+    width: 100vw;
+    height: 100vh;
+}
 .footer{
     color: white;
     background-color: rgb(32,33,36);
@@ -37,7 +42,7 @@
 }
 .mic{
     color: white;
-    background-color:red;
+    background-color:rgb(234,67,53);;
     border-radius: 50%;
     align-items: center;
     display: flex;
@@ -68,7 +73,7 @@
 .end_call{
     border-radius: 100px;
     color: white;
-    background-color:red;
+    background-color:rgb(234,67,53);
     align-items: center;
     display: flex;
     justify-content: center;
@@ -93,4 +98,35 @@
 .more{
     color: #fff;
     margin: 10px;
+}
+.main_page{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(32,33,36);
+    margin: 10px;
+    margin-top: 0;
+    padding-top: 20px;
+}
+.mic_off{
+    color: #fff;
+    font-size: 1rem;
+    position: absolute;
+    right: 12px;
+    height: 26px;
+    width: 26px;
+}
+.participant{
+    display: flex;
+    justify-content: center;
+    margin: 220px;
+}
+.part_img{
+    border-radius: 50%;
+    height: 150px;
+}
+.part_name{
+    font-family:'Roboto', sans-serif;
+    color: #fff;
+    margin-right: 16px;
+    margin-left: 16px;
 }
