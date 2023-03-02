@@ -13,6 +13,7 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     height: 5rem;
+    height: 20vh;
     width: 100vw;
     align-items: center;
     box-sizing: border-box;
@@ -106,6 +107,7 @@
     margin: 10px;
     margin-top: 0;
     padding-top: 20px;
+    margin-bottom: 0;
 }
 .mic_off{
     color: #fff;
@@ -118,15 +120,26 @@
 .participant{
     display: flex;
     justify-content: center;
-    margin: 220px;
+    /*margin: 220px;*/
+    height: 80vh;
 }
 .part_img{
     border-radius: 50%;
     height: 150px;
+    align-self: center;
 }
 .part_name{
     font-family:'Roboto', sans-serif;
     color: #fff;
     margin-right: 16px;
     margin-left: 16px;
+}
+@media screen and (max-width: 768px){
+    .webpage{
+        width: 100vw;
+        height: 100vh;
+    }
+    .date_id .features{
+        display: none;
+    }
 }
